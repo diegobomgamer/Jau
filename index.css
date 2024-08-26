@@ -1,0 +1,32 @@
+html {
+    background-image:linear-gradient(blue,rgb(105, 136, 236),rgb(61, 194, 243));
+    background-repeat: repeat;
+    background-size: cover
+
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#logo_jau {
+    margin-top: 2%;
+    width: calc(100vw - 75px);
+    height: 25%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+#frios {
+    font-size: 5vw;
+    text-rendering:optimizeSpeed;
+    Color:rgb(151, 10, 10);
+    text-decoration:underline;
+    text-shadow:1px 2px 1px white;
+}
+@media (min-width:700px) {
+    #logo_jau_serve {
+        width: 50%;
+    }
+}
